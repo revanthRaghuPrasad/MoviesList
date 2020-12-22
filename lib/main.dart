@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movieListDemo/screens/movie_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Container(
-            color: Colors.cyan,
+            child: MovieList(),
           ),
         ),
       ),
